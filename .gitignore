@@ -1,3 +1,19 @@
+.idea/
 .venv/
 
 .sconsign.dblite
+
+# Object files
+*.o
+*.obj
+
+# Other common C++ build artifacts to ignore
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+build/
+dist/

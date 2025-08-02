@@ -1,0 +1,22 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1754112412
+icon.svg::CompressedTexture2D/CompressedTexture2D::4849331543133594874::1754104170::1754104179::1::::<><><>0<>0<>f3ffda8da55c1d37c598467a2e928d0b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+icon.webp::CompressedTexture2D::27118964165343846::1744401098::1754112439::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
+main.tscn::PackedScene::52769991068368014::1754112114::0::1::::<><><>0<>0<><>::uid://cbdb1uaqofky1::::res://icon.svg
+::res://art/::1744401098
+body.tres::StandardMaterial3D::-1::1744401098::0::1::::<><><>0<>0<><>::
+eye.tres::StandardMaterial3D::-1::1744401098::0::1::::<><><>0<>0<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::6912470962729766485::1744401098::1754112439::1::::<><><>0<>0<>ca11219f684f6cd2af90d4e6cdaead58<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
+mob.blend::PackedScene::661959328181117586::1744401098::1754112441::1::::<><><>0<>0<>854e63b62ef5e352892dbfb328f6b2de<>res://.godot/imported/mob.blend-c6f18187402385a3ab6946547bfe4692.scn::
+mob.glb::PackedScene::2952940687663745631::1744401098::1754112442::1::::<><><>0<>0<>a780a1250ec97030b0168a6a0460c3f3<>res://.godot/imported/mob.glb-3afb43c03b9d1598b6af5154e2543eac.scn::
+mob_body.tres::StandardMaterial3D::-1::1744401098::0::1::::<><><>0<>0<><>::
+mob_eye.tres::StandardMaterial3D::-1::1744401098::0::1::::<><><>0<>0<><>::
+player.blend::PackedScene::3802910337259780821::1744401098::1754112442::1::::<><><>0<>0<>e39caa1390a09deab9fe1394d86fc757<>res://.godot/imported/player.blend-7531ce38fb8dc3874ef382f8a3b5b9d4.scn::
+player.glb::PackedScene::8964461739428881931::1744401098::1754112442::1::::<><><>0<>0<>888faf6ae4281eadd09c6bedcc72b9b7<>res://.godot/imported/player.glb-08dcfb373480a049995065542e37637b.scn::
+pupil.tres::StandardMaterial3D::-1::1744401098::0::1::::<><><>0<>0<><>::
+::res://bin/::1754109980
+game.gdextension::GDExtension/GDExtension::6539077988755221955::1754109863::0::1::::<><><>0<>0<><>::
+::res://bin/libgame.macos.template_debug.framework/::1754112103
+::res://fonts/::1744401098
+LICENSE.txt::TextFile::-1::1744401098::0::1::::<><><>0<>0<><>::
+Montserrat-Medium.ttf::FontFile::6505293508080888906::1744401098::1754112439::1::::<><><>0<>0<>07233739ee8ed56ec1cb0f04a4ff2983<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::

@@ -31,7 +31,6 @@ namespace godot {
         double get_amplitude() const;
         void set_speed(const double p_speed);
         double get_speed() const;
-        void _on_sprite2d_position_changed(godot::Node* node, godot::Vector2 new_pos);
     };
 
 }

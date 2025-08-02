@@ -4,8 +4,6 @@
 
 #include "game.h"
 #include <godot_cpp/core/class_db.hpp>
-#include <godot_cpp/variant/utility_functions.hpp>
-#include <godot_cpp/variant/string.hpp>
 
 using namespace godot;
 
@@ -21,8 +19,6 @@ void Game::_bind_methods() {
     ADD_PROPERTY(PropertyInfo(Variant::FLOAT, "speed", PROPERTY_HINT_RANGE, "0,20,0.01"), "set_speed", "get_speed");
 
     ADD_SIGNAL(MethodInfo("position_changed", PropertyInfo(Variant::OBJECT, "node"), PropertyInfo(Variant::VECTOR2, "new_pos")));
-
-    ClassDB::bind_method(D_METHOD("_on_sprite2d_position_changed"), &Game::_on_sprite2d_position_changed);
 }
 
 Game::Game() {
@@ -67,12 +63,4 @@ void Game::set_speed(const double p_speed) {
 
 double Game::get_speed() const {
     return speed;
-}
-
-void Game::_on_sprite2d_position_changed(godot::Node* node, godot::Vector2 new_pos) {
-    if (node) {
-        godot::String class_name = node->get_class();
-        godot::String message = "The position of " + class_name + " is now " + godot::String(new_pos);
-        UtilityFunctions::print(message);
-    }
 }

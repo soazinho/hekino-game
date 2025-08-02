@@ -5,6 +5,7 @@
 
 # Object files
 *.o
+*.os
 *.obj
 
 # Other common C++ build artifacts to ignore

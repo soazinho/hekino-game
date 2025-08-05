@@ -22,6 +22,7 @@ void Player::_ready()
 {
 }
 
+// Update the node at fixed time intervals.
 void Player::_physics_process(double delta) 
 {
     Vector3 direction = Vector3();
@@ -43,7 +44,7 @@ void Player::_physics_process(double delta)
         direction.z -= 1.0f;
     }
 
-    // Make sure we don't go faster if we move diagonally.
+    // Make sure we do not go faster if we move diagonally.
     if (direction != Vector3()) 
     {
         direction = direction.normalized();

@@ -6,10 +6,6 @@
 #define PLAYER_H
 
 #include <godot_cpp/classes/character_body3d.hpp>
-#include <godot_cpp/classes/input.hpp>
-#include <godot_cpp/classes/camera3d.hpp>
-#include <godot_cpp/variant/utility_functions.hpp>
-#include <godot_cpp/variant/vector3.hpp>
 
 class Player : public godot::CharacterBody3D 
 {

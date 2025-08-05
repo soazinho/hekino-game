@@ -4,6 +4,8 @@
 
 #include "player.h"
 
+#include <godot_cpp/classes/input.hpp>
+
 using namespace godot;
 
 void Player::_bind_methods() 

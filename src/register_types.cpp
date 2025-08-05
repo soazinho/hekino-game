@@ -5,6 +5,7 @@
 #include "register_types.h"
 
 #include "game.h"
+#include "player.h"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -18,6 +19,7 @@ void initialize_game_module(ModuleInitializationLevel p_level) {
     }
 
     GDREGISTER_RUNTIME_CLASS(Game);
+    GDREGISTER_RUNTIME_CLASS(Player);
 }
 
 void uninitialize_game_module(ModuleInitializationLevel p_level) {

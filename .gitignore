@@ -1,5 +1,10 @@
+# Development
 .idea/
 .venv/
+.vscode
+
+# Godot
+.godot/
 
 .sconsign.dblite
 

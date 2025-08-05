@@ -3,7 +3,6 @@
 //
 
 #include "game.h"
-#include <godot_cpp/core/class_db.hpp>
 
 using namespace godot;
 
@@ -24,7 +23,7 @@ void Game::_bind_methods() {
 Game::Game() {
     time_passed = 0.0;
     amplitude = 10.0;
-    speed = 1.0;
+    speed = 1.0;    
 }
 
 Game::~Game() {

@@ -5,6 +5,7 @@
 
 # Godot
 .godot/
+game/bin/
 
 .sconsign.dblite
 
@@ -23,3 +24,4 @@
 *.lib
 build/
 dist/
+.DS_Store
